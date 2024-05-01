@@ -29,7 +29,7 @@ const PhoneOtpForm = () => {
   return (
       <div>
          {!showOtpField ? <form onSubmit={handlePhoneSubmit}>
-              <input type="text" value={phoneNumber} onChange={handlePhoneNumber} placeholder="Enter Your Number.." />
+              <input type="text" value={phoneNumber} onChange={handlePhoneNumber} placeholder="Enter Your Number.." className=""/>
               <button type="submit">Submit</button>
           </form> :
               <div>
